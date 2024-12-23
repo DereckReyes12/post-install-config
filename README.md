@@ -28,12 +28,13 @@ This tutorial outlines the post-install configuration of the open-source help de
 <h2>Configuration Steps</h2>
 
 <p>
-<img src="https://i.imgur.com/9SdzpG5.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
-<p>
- I first Configured Roles (for grouping permissions) in the 
-Admin Panel -> Agents -> Roles and gave the role all permissions and the name 
-Supreme Admin. 
+
+ <h2 align="center;">Configuring Roles (for grouping permissions)</h2>
+
+ <p>Admin Panel -> Agents -> Roles and gave the role all permissions and the name 
+Supreme Admin.</p> 
   <p>
     <mark>the purpose of the roles</mark>
   </p>
@@ -50,13 +51,16 @@ Supreme Admin.
 <br />
 
 <p>
-<img src="https://i.imgur.com/MGRLcO0.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/2BGdr6j.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/roPAEQ0.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/bzKvxfm.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/UciluZe.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/vuFYxZd.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
-<p>Then Configured Departments</p> 
+<h3 align="center;">Configure Departments</h3>
+<br />
 <p>(Ticket Visibility, Help Desk vs   Corpadmin, vs Networking)</p>
-<p>Admin Panel -> Agents -> Departments</p>
- <p>and named the department corpadmin</p>
-  <p>
+<p>
     <mark>the purpose of  departments</mark>
   </p>
 <ul>
@@ -64,15 +68,17 @@ Supreme Admin.
   <li>they act as logical grouping for tickets</li>
   <li>allow you to control wich agent handles specific task</li>
 </ul>
-
+</p>
+<p>Admin Panel -> Agents -> Departments</p>
+<p>system administrator</p>
+<br />
+<p>
+<img src="https://i.imgur.com/83gWQsO.png" height="80%" width="80%" alt="Disk Sanitization Steps"/> 
+<img src="https://i.imgur.com/oGLXmQv.png" height="80%" width="80%" alt="Disk Sanitization Steps"/> 
 </p>
 <br />
-
-<p>
-<img src="https://i.imgur.com/mBaPOxp.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<p>In this section i Configured Teams</p>
-<p>Admin Panel -> Agents -> Teams (Pull Agents from different Departments)</p>
+<br />
+<h3 align="center">Configure Teams</h3>
 <p>Online Banking</p>
 <mark>The purpose of teams</mark>
 <ul>
@@ -80,35 +86,55 @@ Supreme Admin.
   <li>handling specific task that require a group of agents working together</li>
   <li>teams are more flexible and are meant for crossdepartments collaboraion</li>
 </ul>
- 
-</p>
+ </p>
+ <p>Admin Panel -> Agents -> Teams (Pull Agents from different Departments)</p>
 <br />
 <p>
- <img src="https://i.imgur.com/lGmmqsD.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+ <img src="https://i.imgur.com/BnPrcDH.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
-<p>For this lab i unchecked the require registration and login to create a ticket </p>
-<br/>
-<p><img src="https://i.imgur.com/qoAacZw.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<p><img src="https://i.imgur.com/eFXiYNf.png" height="80%" width="80%" alt="Disk Sanitization Steps"/></p>
+<p>Level II support</p>
+<br />
+<br /><h3 align="center">Allow anyone to create ticket</h3>
+<br />
+<p>Admin Panel -> Settings -> User Settings.</p>
+ <p>Make sure "required registration and login to create tickets" is not selected:
+ </p>
+ <img src="https://i.imgur.com/QsJjOuM.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+ <br />
+ <br />
+<h3 align="center">Configure Agents (workers)</h3>
+<br />
+ <P>Admin Panel -> Agents -> Add New.</P>
+
+  Jane Doe:
+</p>
+  <img src="https://i.imgur.com/ujpOdKM.png" height="75%" width="100%" alt="agent one access"/>
+<p>
+  John Doe:
+</p>
+<p>
+  <img src="https://i.imgur.com/NcCP0v9.png" height="75%" width="100%" alt="agent two"/>
+  <img src="https://i.imgur.com/aKTJ01A.png" height="75%" width="100%" alt="agent two access"/>
+
+<h3 align="center">Configure Users (customers)</h3>
+<br />
+<p>
+  Admin Panel -> Users -> Add New.
+</p>
+<p>
+  Ken User:
+</p>
+  <img src="https://i.imgur.com/vbPd3uK.png" height="75%" width="100%" alt="user access"/>
+<p>
+  Repeat the same above for Karen User.
   
-<p>For me to be able to understand how to use the ticketing system</p>
-<p>i created both agents and costumers</p>
-<ul>
-  <li>Admin Panel -> Agents -> Add New
-Chase Garden (Dept: Support)</li>
-John Doe (Dept: Corpadmin)</li>
-  <li>Configure Users (customers)
-Agent Panel -> Users -> Add New
-Katty 
-Alanis
+
+ 
 </li>
 </ul>
 <br />
-<p>For the finishing touches i configured SLA and created topics</p>
+<h3 align="center;">Configure SLA</h3>
 <br />
-<p><img src="https://i.imgur.com/Hs2oCsd.png" height="80%" width="80%" alt="Disk Sanitization Steps"/></p>
-<p>The SLAs i created a,b and c.</p>
-<p>A being the most severe and c being the least.</p>
 <mark>For what is it used for?</mark>
 <ul>
   <li>Define resolution timeframe.</li>
@@ -118,11 +144,25 @@ Alanis
   <li>Ensure critical issues are adressed faster.</li>
   <li>and more</li>
 </ul>
-<p><img src="https://i.imgur.com/6HDI3Q9.png" height="80%" width="80%" alt="Disk Sanitization Steps"/></p>
-<p>I created all these help topic simulating how it would be in a real job.</p>
-<p>Now i can have a better grasp in how the software works and hoe navigate it.</p>
-<p>Most importantly how to manage costumers.</p>
-
+<br />
+<p>
+  Admin Panel -> Manage -> SLA.
+</p>
+<p>
+  Sev-A (1 hour, 24/7).
+</p>
+<p>
+  Sev-B (4 hours, 24/7).
+</p>
+<p>
+  Sev-C (8 hours, business hours):
+</p>
+<p>
+  <img src="https://i.imgur.com/6AAF3Ju.png" height="75%" width="100%" alt="sev one"/>
+  <img src="https://i.imgur.com/izcD74X.png" height="75%" width="100%" alt="sev two"/>
+  <img src="https://i.imgur.com/xKzdp7w.png" height="75%" width="100%" alt="sev three"/>
+</p>
+  <h3 align="center;">Configure Help Topics</h3>
 
 <mark>The purpose of help topic</mark>
 <ul>
@@ -132,6 +172,43 @@ Alanis
   <li>support branding and communication</li>
   <li>and more</li>
 </ul>
+<p>
+  Admin Panel -> Manage -> Help Topics.
+</p>
+<p>
+  Business Critical Outage.
+</p>
+<p>
+  Personal Computer Issues.
+</p>
+<p>
+  Equipment Request.
+</p>
+<p>
+  Password Reset.
+</p>
+<p>
+  <img src="https://i.imgur.com/Xdhp63v.png" height="75%" width="100%" alt="business critical outage"/>
+  <img src="https://i.imgur.com/3Y7k2o1.png" height="75%" width="100%" alt="personal computer issues"/>
+  <img src="https://i.imgur.com/Z0eIGea.png" height="75%" width="100%" alt="equipment request"/>
+  <img src="https://i.imgur.com/ndOdtTZ.png" height="75%" width="100%" alt="password reset"/>
+</p>
+<br />
+<br />
+<p>
+  Your osTicket is now fully configured. I hope this guide has been helpful in clarifying the set up process
+</p>
+<p>
+ and assisting you with configuring osticket.it's highly recommended to practice triaging and resolving tickets
+</p>
+<p>to futher enhance your familiarity with the system.</p>
+<p>
+ This is a crucial skill for any help desk specialist,as they serve as the first point of contact between a company
+</p>
+<p>
+ and its costumers when addressing issues related to the products or services provided.
+</p>
+
 
 
 
